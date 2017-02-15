@@ -17,9 +17,9 @@
 
     echo "<p>Phineas P Phantastically</>";
 
-    date_default_timezone_set('UTC');
+    date_default_timezone_set('America/Chicago');
 
-    echo date ('h:i a, l F jS Y e');
+    echo date ('h:i a, l F jS Y');
 
 
 
