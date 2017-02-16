@@ -15,7 +15,11 @@
 
     # comment, as well
 
-    echo "<p>Phineas P Phantastically</>";
+    echo "<H1>Phineas P Phantastically</H1></br>";
+
+    echo "</br>";
+    echo "</br>";
+    echo "</br>";
 
     date_default_timezone_set('America/Chicago');
 
