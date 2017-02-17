@@ -17,7 +17,18 @@
 
     echo "<H1>Phineas P Phantastically</H1></br>";
 
+    $noun = $_POST['noun'];
+    $verb = $_POST['verb'];
+    $adjective = $_POST['adjective'];
+
+    $string = <<<EOD
+    The other day, I took my $noun for a walk.
+    He loves to $verb. He is very
+    $adjective that way!
+EOD;
+
     echo "</br>";
+    echo $string;
     echo "</br>";
     echo "</br>";
 
