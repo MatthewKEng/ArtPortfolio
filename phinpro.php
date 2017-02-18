@@ -1,5 +1,11 @@
 <html>
   <head>
+    <style type="text/css">
+      h1,p {
+        text-align: center;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -27,7 +33,7 @@
     $adjective that way!
 EOD;
 
-    echo $string;
+    echo "<p>".$string."</p>";
     echo "</br>";
     echo "<p>Ha ha HA HA!!!</p>";
 
