@@ -4,7 +4,12 @@
       h1,p {
         text-align: center;
       }
-
+      h1 {
+        font-size: 400%;
+      }
+      p {
+        font-size: 20px;
+      }
     </style>
   </head>
 
