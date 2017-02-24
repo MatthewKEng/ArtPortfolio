@@ -10,6 +10,7 @@
       h1 {
         font-size: 400%;
         background-color: #b3ffd9;
+        font-family: Carton Six;
       }
       p {
         font-size: 20px;
@@ -40,8 +41,8 @@
     $adjective = $_POST['adjective'];
 
     $string = <<<EOD
-    The other day, I took my $noun for a walk.
-    He loves to $verb. He is very
+    The other day, I took my $noun for a walk.</br>
+    He loves to $verb.</br> He is very
     $adjective that way!
 EOD;
 
