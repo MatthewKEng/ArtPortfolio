@@ -50,16 +50,10 @@ EOD;
     echo "</br>";
     echo "<p>Ha ha HA HA!!!</p>";
 
-/*
-
-    date_default_timezone_set('America/Chicago');
-
-    echo date ('h:i a, l F jS Y');
-
-*/
-
     ?>
-
+    <form align="center" method="link" action="infoform.html">
+    <input type="submit" value="Do It AGAIN!!!">
+    </form>
   </body>
 
 </html>
