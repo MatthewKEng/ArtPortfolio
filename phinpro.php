@@ -16,6 +16,10 @@
         font-size: 20px;
         background-color: #b3ffd9;
       }
+      input[type=submit] {
+        background-color: #00FFFF;
+        font-size: 15px;
+      }
     </style>
   </head>
 
