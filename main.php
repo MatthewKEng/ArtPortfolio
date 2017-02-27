@@ -3,9 +3,13 @@
     <style type="text/css">
       h1,p {
         text-align: center;
+
       }
       body {
         background-color: #b3ffd9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       h1 {
         font-size: 400%;
@@ -20,8 +24,8 @@
     </style>
   </head>
   <body>
-    <?php
-    echo "<H1>Phineas P. Phantastically</br>Productions</H1>"
-     ?>
+
+  <H1>Phineas P. Phantastically</br>Productions</H1>
+
   </body>
 </html>
