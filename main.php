@@ -15,20 +15,23 @@
       #logo {
         align-items: center;
         justify-content: center;
+        position: relative;
       }
-      h1 {
+      #logo h1 {
         font-size: 400%;
         /*background-color: #b3ffd9;*/
         font-family: Carton Six;
         z-index: 2;
+        position: relative;
       }
-      img {
+      #logo img {
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
         height: auto;
         opacity: 0.6;
+        
       }
       p {
         font-size: 20px;
