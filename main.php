@@ -1,7 +1,7 @@
 <html>
   <head>
     <style type="text/css">
-      h1,p {
+      p {
         text-align: center;
 
       }
@@ -23,6 +23,7 @@
         font-family: Carton Six;
         z-index: 2;
         position: relative;
+        text-align: center;
       }
       #logo img {
         position: absolute;
@@ -31,7 +32,10 @@
         width: 100%;
         height: auto;
         opacity: 0.6;
-        
+      }
+      #galleries {
+        position: relative;
+        text-align: center;
       }
       p {
         font-size: 20px;
@@ -53,6 +57,15 @@
     <div id="logo">
       <H1>Phineas P. Phantastically</br>Productions</H1>
       <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/1930680_48295159715_5835_n.jpg?oh=b1be0ee728c269abec4fcdb8d7129da8&oe=592CE3FE">
+    </div>
+    <div id="galleries">
+      <H1>Biographies</H1>
+      <H1>Galleries</H1>
+      <H2>Comics</H2>
+      <H2>Sketch Cards</H2>
+      <H2>Illustrations</H2>
+      <H2>Sculpture</H2>
+      <H2>Miscellaneas</H2>
     </div>
   </body>
 </html>
