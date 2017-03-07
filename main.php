@@ -3,7 +3,10 @@
     <style type="text/css">
       p {
         text-align: center;
-
+      }
+      a:link {
+        color: black;
+        text-decoration: none
       }
       body {
         background-color: #b3ffd9;
@@ -53,7 +56,7 @@
   </head>
   <body>
     <div class="menu">
-      <p>BIOs</p>
+      <p><a href="http://localhost/PhinPro/main.php#bios">BIOs</a></p>
       <p>GALLERIES</p>
       <p>LINKS</p>
     </div>
@@ -62,8 +65,8 @@
       <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t31.0-8/17039132_10154483283239716_5799823019574113614_o.jpg?oh=5ad9f00c7528b16553a90bc06c4d9684&oe=592A148A">
     </div>
     <div id="galleries">
-      <H1>Biographies</H1>
-      <H1>Galleries</H1>
+      <H1 id="bios">Biographies</H1>
+      <H1 id="galls">Galleries</H1>
       <H2>Comics</H2>
       <H2>Sketch Cards</H2>
       <H2>Illustrations</H2>
