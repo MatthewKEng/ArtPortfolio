@@ -57,8 +57,8 @@
   <body>
     <div class="menu">
       <p><a href="http://localhost/PhinPro/main.php#bios">BIOs</a></p>
-      <p>GALLERIES</p>
-      <p>LINKS</p>
+      <p><a href="http://localhost/PhinPro/main.php#galls">GALLERIES</a></p>
+      <p><a href="http://localhost/PhinPro/infoform.html">FUN!!!</a></p>
     </div>
     <div id="logo">
       <H1>Phineas P. Phantastically</br>Productions</H1>
