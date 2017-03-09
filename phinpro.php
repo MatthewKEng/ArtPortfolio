@@ -20,6 +20,17 @@
         background-color: #00FFFF;
         font-size: 15px;
       }
+      #back {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+      }
+      .button {
+        font-size: 20px;
+        color: grey;
+        text-align: center;
+      }
+
     </style>
   </head>
 
@@ -58,6 +69,11 @@ EOD;
     <form align="center" method="link" action="infoform.html">
     <input type="submit" value="Do It AGAIN!!!">
     </form>
+
+    <div id="back">
+      <a href="http://localhost/PhinPro/main.php" class="button">Back to Main</a>
+    </div>
+
   </body>
 
 </html>

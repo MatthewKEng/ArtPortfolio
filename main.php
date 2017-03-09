@@ -71,7 +71,7 @@
       <H2>Sketch Cards</H2>
       <H2>Illustrations</H2>
       <H2>Sculpture</H2>
-      <H2>Miscellaneas</H2>
+      <H2>Miscellaneous</H2>
     </div>
   </body>
 </html>
