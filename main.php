@@ -51,6 +51,13 @@
         display: flex;
         justify-content: space-between;
       }
+      .graphies {
+        
+      }
+      .graphies img {
+        width: 175px;
+        height: auto;
+      }
 
     </style>
   </head>
@@ -68,10 +75,10 @@
       <H1 id="bios">Biographies</H1>
       <div class="graphies">
         <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/17098678_10154485409229716_3093667700160597659_n.jpg?oh=5f15c1ce7892cb13d6d43567ac148515&oe=59635D03">
-        <H3>Matthew Eng</H3>
-        <p>Matthew has drawn ever since he could hold a crayon. Early drawings centered around recreations of action scenes from his favorite films, including Star Wars.</p>
+        <p><H3>Matthew Eng</H3>Matthew has drawn ever since he could hold a crayon. Early drawings centered around recreations of action scenes from his favorite films, including Star Wars.</p>
       </div>
       <div class="graphies">
+        <img src="http://3.bp.blogspot.com/_4a3L1MNuWx8/R0pCuTMB4pI/AAAAAAAAAAU/BGbmYsEByow/S240/Phineas+P+Pooterbutt-Alpha.jpg">
         <H3>Phineas P. Phantastically</H3>
       </div>
       <H1 id="galls">Galleries</H1>
