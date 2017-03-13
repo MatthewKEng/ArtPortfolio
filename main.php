@@ -62,7 +62,7 @@
         display: flex;
         justify-content;
         align-items: flex-start;
-        margin-top: 50px;
+        margin-bottom: 100px;
 
       }
       .graphies img {
