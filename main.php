@@ -9,7 +9,7 @@
         text-decoration: none
       }
       body {
-        background-color: #b3ffd9;
+        /*background-color: #b3ffd9;*/
       }
       #first {
         display: flex;
@@ -20,7 +20,7 @@
         justify-content: center;
         position: relative;
         display: flex;
-
+        /*background-color: #ffffff;*/
       }
       #logo h1 {
         font-size: 500%;
@@ -38,6 +38,7 @@
         width: 100%;
         height: auto;
         opacity: 0.4;
+
       }
       #galleries {
         /*position: relative;*/
@@ -45,6 +46,7 @@
         display: flex;
         flex-direction: column;
         padding-top: 600px;
+        /*background-color: #b3ffd9;*/
       }
       #galleries H1 {
         text-align: center;
@@ -57,6 +59,7 @@
       .menu {
         display: flex;
         justify-content: space-between;
+        /*background-color: #b3ffd9;*/
       }
       .graphies {
         display: flex;
