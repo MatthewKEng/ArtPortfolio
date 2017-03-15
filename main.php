@@ -11,10 +11,10 @@
       body {
         /*background-color: #b3ffd9;*/
       }
-      #first {
-        display: flex;
-        flex-direction: column;
-      }
+      /*#first {*/
+        /*display: flex;
+        flex-direction: column;*/
+      /*}*/
       #logo {
         align-items: center;
         justify-content: center;
@@ -38,18 +38,22 @@
         width: 100%;
         height: auto;
         opacity: 0.4;
-
+        background-color: #ffffff;
       }
       #galleries {
         /*position: relative;*/
         /*text-align: center;*/
         display: flex;
         flex-direction: column;
-        padding-top: 600px;
-        /*background-color: #b3ffd9;*/
+        padding-top: 100px;
+        background-color: #b3ffd9;
+        margin-top: 460px;
       }
       #galleries H1 {
         text-align: center;
+      }
+      #bios {
+        margin-bottom: 50px;
       }
       p {
         font-size: 20px;
@@ -59,7 +63,7 @@
       .menu {
         display: flex;
         justify-content: space-between;
-        /*background-color: #b3ffd9;*/
+        background-color: #b3ffd9;
       }
       .graphies {
         display: flex;
