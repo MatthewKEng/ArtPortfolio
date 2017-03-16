@@ -86,7 +86,19 @@
         margin-right: 15px;
         margin-bottom: 10px;
       }
-
+      #comics {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      #comics img {
+        width: auto;
+        height: 175px;
+      }
+      #galls H2 {
+        text-align: center;
+        margin-top: 100px;
+      }
     </style>
   </head>
   <body>
@@ -111,12 +123,39 @@
         <img src="http://3.bp.blogspot.com/_4a3L1MNuWx8/R0pCuTMB4pI/AAAAAAAAAAU/BGbmYsEByow/S240/Phineas+P+Pooterbutt-Alpha.jpg">
         <p><span>Phineas P. Phantastically</span>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
       </div>
-      <H1 id="galls">Galleries</H1>
-      <H2>Comics</H2>
-      <H2>Sketch Cards</H2>
-      <H2>Illustrations</H2>
-      <H2>Sculpture</H2>
-      <H2>Miscellaneous</H2>
+      <div id="galls">
+        <H1>Galleries</H1>
+        <H2>Comics</H2>
+        <div id="comics">
+          <div>
+            <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/383472_10151082038399716_1896441929_n.jpg?oh=f4953d18eac9b03e1043bdf51f315879&oe=59692E6D">
+          </div>
+          <div>
+            <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/579636_10151369946689716_177239197_n.jpg?oh=a76b876ed1d17572594dfd86df0f6c54&oe=595C21D0">
+          </div>
+          <div>
+            <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/1238969_10151646667059716_1339246515_n.jpg?oh=4f6f17a5a116fe45b9caa675460986a6&oe=595F9BE1">
+          </div>
+          <div>
+            <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/1013207_10151559006749716_1812867188_n.jpg?oh=2e1204c4ad424631a39992a3cebcee1d&oe=592B7B14">
+          </div>
+          <div>
+            <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12141618_10153227674149716_5711531481923793950_n.jpg?oh=db8c2db2055adcd3fa208c74de15a84d&oe=596FAE6D">
+          </div>
+        </div>
+        <H2>Sketch Cards</H2>
+        <div id="cards">
+        </div>
+        <H2>Illustrations</H2>
+        <div id="ill">
+        </div>
+        <H2>Sculpture</H2>
+        <div id="sculpt">
+        </div>
+        <H2>Miscellaneous</H2>
+        <div id="misc">
+        </div>
+      </div>
     </div>
   </body>
 </html>
